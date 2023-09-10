@@ -1,4 +1,2 @@
-FROM ubuntu:latest
-LABEL authors="MOHAMMAD"
+FROM nginxinc/nginx-unprivileged:1-alpine
 
-ENTRYPOINT ["top", "-b"]
